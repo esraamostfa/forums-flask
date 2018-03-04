@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Arab Coders</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Arab Coders</h1>
+        <nav>
+            <a href="index.html" class = "active">الصفحة الرئيسية</a>
+            <a href="profile.html">الملف الشخصي</a>
+            <a href="members.html">الأعضاء</a>
+            <a href="search.html">بحث</a>
+            <a href="creat_topic.html">إنشاء</a>
+        </nav>
+    </header>
+    <main>
+        <table>
+            {% for post in posts %}
+                <tr>
+                    <td>{{post.title}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </main>
+</body>
+</html>
