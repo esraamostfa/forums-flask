@@ -83,3 +83,10 @@ input[type=submit] {
     padding: 6px 10px;
     margin: 10px 35%;
 }
+
+footer{
+    background: #33cccc;
+    padding: 1px;
+    opacity: 0.5;
+    color: #ffffff;
+}
